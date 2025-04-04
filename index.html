@@ -14,7 +14,7 @@
 <body>
     <div class="form">
         <div class="form_box">
-            <p class="logo">لوگو</p>
+            <p class="logo">فرم ثبت نام</p>
             <form action="#">
                 <div class="input_box">
                     <input name="name" type="text" required placeholder="نام کاربری" autofocus>
@@ -29,14 +29,15 @@
                     <input name="password" type="password" required placeholder="تکرار رمز عبور" minlength="5"
                         maxlength="10">
                 </div>
-                <div class="policy"> <input type="checkbox">
-                    <p>قوانین و شرایط را می پذیرم</p>
+                <div class="policy">
+                    <input class="check" id="policy" type="checkbox">
+                    <label for="policy" class="text">قوانین و شرایط را می پذیرم</label>
                 </div>
-                <div class="input_box buton">
+                <div class="input_box button">
                     <input name="submit" type="submit" value="ثبت نام">
                 </div>
-                <div class="text">
-                    <p>از قبل حساب کاربری دارید؟<a href="#">فرم ورود</a></p>
+                <div class="account">
+                    <p> از قبل حساب کاربری دارید؟<a href="#"> فرم ورود </a></p>
                 </div>
             </form>
         </div>

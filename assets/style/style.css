@@ -12,11 +12,95 @@ body {
   padding: 0;
 }
 .form {
-  background-color: #fbe4d6;
+  background-color: #f9e8de;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .form_box {
+  background-color: #e9adef;
+  padding: 30px 45px;
+  border-radius: 24px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+.form_box .logo {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 23px;
+  font-weight: 500;
+  color: #2f2f49;
+}
+.input_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+}
+.input_box input {
+  font-family: Shabnam;
+  padding: 2px 14px;
+  margin: 7px 0;
+  background-color: #c68efd;
+  border: 1px solid #fbe4d6;
+  border-radius: 14px;
+  padding: 10px 15px;
+  color: #061720;
+  font-size: 16px;
+}
+.input_box ::placeholder {
+  color: #373854;
+  font-size: 15px;
+}
+.policy {
+  display: flex;
+  margin: 8px 0;
+}
+input[type="checkbox"] {
+  margin-right: 5px;
+  cursor: pointer;
+  appearance: none;
+  background-color: #f6dccc;
+  border: 1px solid #756458;
+  border-radius: 4px;
+  width: 14px;
+  height: 14px;
+}
+.policy .text {
+  margin-right: 7px;
+  font-size: 13px;
+  color: #1f1d1d;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  background-color: #1a74b9;
+  border-color: #1d5f8e;
+}
+input[type="checkbox"]:hover {
+  border-color: #0c4a76;
+}
+.button input {
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: #af65f8;
+  border: 1px solid #fbe4d6;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  font-size: 17px;
+}
+.button input:hover {
+  background-color: #775895;
+  border: 1px solid #bc9b87;
+  color: #e6e5e5;
+}
+.account {
+  color: #1f1d1d;
+  font-size: 13px;
+  margin-top: 8px 0;
+  text-align: center;
+}
+.account a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #0b436c;
 }
