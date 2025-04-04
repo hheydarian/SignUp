@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Shabnam";
+  src: url("../font/Shabnam.woff2") format(".woff2"),
+    url("../font/Shabnam.woff") format(".woff");
+}
+body {
+  font-family: Shabnam;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.form {
+  background-color: #fbe4d6;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_box {
+}
