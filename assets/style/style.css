@@ -52,32 +52,14 @@ body {
   color: #373854;
   font-size: 15px;
 }
-.policy {
+.policy a {
+  text-decoration: none;
   display: flex;
-  margin: 8px 0;
-}
-input[type="checkbox"] {
-  margin-right: 5px;
-  cursor: pointer;
-  appearance: none;
-  background-color: #f6dccc;
-  border: 1px solid #756458;
-  border-radius: 4px;
-  width: 14px;
-  height: 14px;
-}
-.policy .text {
+  margin: 5px 0;
   margin-right: 7px;
   font-size: 13px;
-  color: #1f1d1d;
+  color: #0a228c;
   cursor: pointer;
-}
-input[type="checkbox"]:checked {
-  background-color: #1a74b9;
-  border-color: #1d5f8e;
-}
-input[type="checkbox"]:hover {
-  border-color: #0c4a76;
 }
 .button input {
   margin-top: 30px;
@@ -93,6 +75,7 @@ input[type="checkbox"]:hover {
   border: 1px solid #bc9b87;
   color: #e6e5e5;
 }
+
 .account {
   color: #1f1d1d;
   font-size: 13px;
@@ -101,6 +84,6 @@ input[type="checkbox"]:hover {
 }
 .account a {
   text-decoration: none;
-  font-size: 14px;
-  color: #0b436c;
+  font-size: 13px;
+  color: #0a228c;
 }
